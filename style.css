@@ -1,0 +1,104 @@
+/*-------------------------
+ header stars
+ -----------------------------*/
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.top-banner{
+    width: 1440px;
+    height: 680px;
+    background-color: rgb(45, 45, 184);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+.top-heading{
+    position: relative;
+    bottom: 169px;
+    left: 156px;
+    top: 207px;
+}
+.image{
+    position: relative;
+    top: 153px;
+    right: 141px;
+    bottom: 86px;
+}
+.box{
+    width: 168px;
+    height: 44px;
+    font-size: 16;
+    background-color: #E02C6D;
+    align-items: center;
+    border-radius: 10px;
+    padding: 10px 24px;
+    position: relative;
+    z-index: 1;
+}
+.box::before{
+    content: "";
+    width:0;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: tomato;
+    border-radius: 10px;
+    transition: .5s;
+    z-index: -1;
+}
+.box:hover::before{
+    width: 100%;
+}
+
+/*-----------------------------------------
+ header ends  
+ ---------------------------------------*/
+
+
+ /* ----------------------------
+ Artical starts
+ ---------------------------  */
+
+.goats{
+    display: grid;
+    grid-template-columns:repeat(3 ,1fr); 
+    grid-column-gap: 30px;
+    margin-top: 70px;
+    
+}
+.player{
+    width: 330px;
+    height: 474px;
+    box-shadow:  20px 20px 50px gray;
+    text-align:center;
+    margin-bottom: 30px;
+}
+/* ----------------------------------------
+Artical ends
+-------------------------------------------  */
+
+
+
+/*---------------------------------
+ footer starts 
+ -------------------------------------*/
+
+.footer{
+    width: 484px;
+    height: 213px;
+    margin-top: 158px;
+    margin-left: 475px;
+    margin-right: 482px;
+    text-align: center;
+}
+
+.s-logo{
+    margin-top: 20px;
+}
+
+/*--------------------------------
+ footer ends 
+ ------------------------------------------ */
+
+
