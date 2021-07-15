@@ -101,4 +101,30 @@ Artical ends
  footer ends 
  ------------------------------------------ */
 
+ /*-----------------------
+  Media Queries
+  -------------------------- */
+
+  /* small screen */
+  @media only screen and (max-width:688){
+      .top-banner{
+          width: 100%;
+          display:flex;
+          flex-direction: row;
+      }
+      .goats{
+          display: grid;
+          grid-template-columns: repeat(1, 1fr);
+      }
+      .player{
+          width: 100%;
+      }
+      .footer{
+          width: 100%;
+      }
+
+      
+      
+  }
+
 
